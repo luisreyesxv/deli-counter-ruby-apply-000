@@ -8,7 +8,7 @@ def line (place)
   else
     current_line = "The line is currently: "
     place.each do |person|
-       current_line << "#{place.index(person)+1}. #{person} "
+       current_line << " #{place.index(person)+1}. #{person}"
     end
     puts current_line
   end
