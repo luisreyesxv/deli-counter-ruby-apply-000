@@ -6,8 +6,8 @@ def line (place)
   if place.length == 0
     puts "The line is currently empty."
   else
-    place.index do |swag|
-      puts place.index(swag)+1
+    place.select do |person|
+      puts place.index(person)+1
     end
   end
 
