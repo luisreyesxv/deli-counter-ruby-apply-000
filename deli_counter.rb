@@ -26,6 +26,6 @@ def now_serving (current_line)
 
  else
 
-   puts "Currently serving #{current_line.pop}."
+   puts "Currently serving #{current_line.shift}."
  end
 end
