@@ -7,7 +7,7 @@ def line (place)
     puts "The line is currently empty."
   else
     place.select do |person|
-      puts place.index(person)+1
+       place.index(person)+1
     end
   end
 
