@@ -10,6 +10,7 @@ def line (place)
     place.each do |person|
        current_line << "#{place.index(person)+1}. #{person} "
     end
+    puts current_line
   end
 
 end
