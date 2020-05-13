@@ -24,5 +24,5 @@ def now_serving (current_line)
  if current_line.length !=0
    puts "Currently serving #{current_line.pop}."
  else
-   "There is nobody waiting to be served!"  
+   "There is nobody waiting to be served!"
 end
