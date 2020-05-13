@@ -14,3 +14,7 @@ def line (place)
   end
 
 end
+
+def take_a_number (current_line,name)
+
+end  
