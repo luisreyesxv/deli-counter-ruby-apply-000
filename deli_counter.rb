@@ -21,9 +21,11 @@ def take_a_number (current_line,name)
 end
 
 def now_serving (current_line)
- if current_line.length !=0
-   puts "Currently serving #{current_line.pop}."
+ if current_line.length == 0
+   puts "There is nobody waiting to be served!"
+   
  else
-   "There is nobody waiting to be served!"
+   
+   puts "Currently serving #{current_line.pop}."
  end
 end
