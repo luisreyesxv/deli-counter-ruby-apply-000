@@ -15,4 +15,3 @@ def line (place)
 
 end
 
-line(["luis","margaret","sam","betty"])
