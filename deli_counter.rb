@@ -14,4 +14,3 @@ def line (place)
   end
 
 end
-
