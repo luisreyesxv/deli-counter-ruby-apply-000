@@ -16,7 +16,7 @@ def line (place)
 end
 
 def take_a_number (current_line,name)
-  
+
   puts "Welcome, #{name}. You are number #{current_line.length+1} in line."
   current_line << name
 end
