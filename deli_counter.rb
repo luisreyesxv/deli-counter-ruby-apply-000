@@ -9,8 +9,6 @@ def line (place)
     place.each |swag| do
       puts swag
     end
-  end  
+  end
 
-end  
-
-
+end
