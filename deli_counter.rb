@@ -12,3 +12,5 @@ def line (place)
   end
 
 end
+
+line(["luis","margaret","sam","betty"])
