@@ -7,7 +7,7 @@ def line (place)
     puts "The line is currently empty."
   else
     place.index do |swag|
-      puts swag.index
+      puts place.index(swag)
     end
   end
 
