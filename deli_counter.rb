@@ -7,7 +7,7 @@ def line (place)
     puts "The line is currently empty."
   else
     current_line = "The line is currently: "
-    place.collect do |person|
+    place.each do |person|
        current_line << "#{place.index(person)+1}. #{person} "
     end
   end
