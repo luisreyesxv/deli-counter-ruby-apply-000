@@ -21,5 +21,6 @@ def take_a_number (current_line,name)
 end
 
 def now_serving (current_line)
-
+ if current_line.length !=0
+  puts "Currently serving #{current_line.pop}."
 end
